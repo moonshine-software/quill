@@ -11,7 +11,7 @@ final class Quill extends Textarea
     protected static string $view = 'moonshine-quill::fields.quill';
 
     protected array $assets = [
-        'vendor/moonshine-quill/js/css/quill.snow.css',
-        'vendor/moonshine-quill/js/js/quill.js',
+        'vendor/moonshine-quill/css/quill.snow.css',
+        'vendor/moonshine-quill/js/quill.js',
     ];
 }
