@@ -8,7 +8,7 @@ use MoonShine\Fields\Textarea;
 
 final class Quill extends Textarea
 {
-    protected static string $view = 'moonshine-quill::fields.quill';
+    protected string $view = 'moonshine-quill::fields.quill';
 
     protected array $assets = [
         'vendor/moonshine-quill/css/quill.snow.css',

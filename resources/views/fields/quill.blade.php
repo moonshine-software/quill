@@ -1,12 +1,14 @@
 <div>
     <div id="quill_{{ $element->id() }}" style="height: auto;">
-        {!! $element->formViewValue($item) ?? '' !!}
+        {!! $value ?? '' !!}
     </div>
 </div>
 
 <script>
-    let quill = new Quill('#quill_{{ $element->id() }}', {
-        theme: 'snow'
+    document.addEventListener("DOMContentLoaded", () => {
+        let quill = new Quill('#quill_{{ $element->id() }}', {
+            theme: 'snow'
+        });
     });
 </script>
 
