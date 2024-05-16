@@ -943,3 +943,8 @@
 .ql-container.ql-snow {
   border: 1px solid #ccc;
 }
+
+.ql-container, .ql-toolbar {
+    background-color: white!important;
+    color: black!important;
+}

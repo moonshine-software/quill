@@ -13,5 +13,6 @@ final class Quill extends Textarea
     protected array $assets = [
         'vendor/moonshine-quill/css/quill.snow.css',
         'vendor/moonshine-quill/js/quill.js',
+        'vendor/moonshine-quill/js/quill-init.js',
     ];
 }
