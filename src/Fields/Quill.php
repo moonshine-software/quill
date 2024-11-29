@@ -12,7 +12,7 @@ final class Quill extends Textarea
 {
     protected string $view = 'moonshine-quill::fields.quill';
 
-    public function getAssets(): array
+    protected function assets(): array
     {
         return [
             Css::make('vendor/moonshine-quill/css/quill.snow.css'),
